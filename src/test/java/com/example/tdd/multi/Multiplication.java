@@ -19,7 +19,7 @@ import org.junit.jupiter.api.Test;
     공용 equals ( 완료 )
     공용 times
     Franc과 Dollar 비교하기 ( 완료 )
-    통화 ?
+    통화 ?     ( 완료 )
     testFrancMultiplication을 지워야 할까?
     */
 
