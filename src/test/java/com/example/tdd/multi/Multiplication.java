@@ -16,8 +16,9 @@ import org.junit.jupiter.api.Test;
     Equal object
     5CHF * 2 = 10 CHF ( 완료 )
     Dollar / Franc 중복
-    공용 equals
+    공용 equals ( 완료 )
     공용 times
+    Franc과 Dollar 비교하기
     */
 
 public class Multiplication {
@@ -45,6 +46,7 @@ public class Multiplication {
         Assertions.assertFalse(new Dollar(5).equals(new Dollar(6)));
         Assertions.assertTrue(new Franc(5).equals(new Franc(5)));
         Assertions.assertFalse(new Franc(5).equals(new Franc(6)));
+        Assertions.assertFalse(new Franc(5).equals(new Dollar(5)));
     }
 
 }
