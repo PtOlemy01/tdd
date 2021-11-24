@@ -1,8 +1,6 @@
 package com.example.tdd.multi;
 
-public class Franc {
-    private int amount = 0;
-
+public class Franc extends Money{
     Franc(int amount){
         this.amount = amount;
     }

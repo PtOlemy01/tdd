@@ -43,6 +43,8 @@ public class Multiplication {
         //Assertions.assertEquals(new Dollar(5), new Dollar(5));
         Assertions.assertTrue(new Dollar(5).equals(new Dollar(5)));
         Assertions.assertFalse(new Dollar(5).equals(new Dollar(6)));
+        Assertions.assertTrue(new Franc(5).equals(new Franc(5)));
+        Assertions.assertFalse(new Franc(5).equals(new Franc(6)));
     }
 
 }

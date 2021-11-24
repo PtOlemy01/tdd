@@ -1,8 +1,6 @@
 package com.example.tdd.multi;
 
-public class Dollar {
-    private int amount = 0;
-
+public class Dollar extends Money{
     Dollar(int amount){
         this.amount = amount;
     }
@@ -11,7 +9,7 @@ public class Dollar {
     }
 
     public boolean equals(Object object){
-        Dollar dollar = (Dollar) object;
-        return amount == dollar.amount;
+        Money money = (Money) object;
+        return amount == money.amount;
     }
 }
