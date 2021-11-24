@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c866d07-1b16-41dc-acec-fddddb2f3e3b" name="Changes" comment="테스트 성공.">
+    <list default="true" id="4c866d07-1b16-41dc-acec-fddddb2f3e3b" name="Changes" comment="무조건 true 반환.">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Dollar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tdd/multi/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tdd/multi/Multiplication.java" afterDir="false" />
@@ -29,6 +30,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="21GV9YLkrOHfPDZtST34N45sROy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,13 +56,34 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
-  <component name="RunManager" selected="Gradle.Multiplication.testMultiplication">
+  <component name="RunManager" selected="Gradle.Multiplication">
     <configuration name="Multiplication" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.example.tdd.multi.Multiplication&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Multiplication.testEquality" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.tdd.multi.Multiplication.testEquality&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -92,8 +122,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Multiplication.testMultiplication" />
         <item itemvalue="Gradle.Multiplication" />
+        <item itemvalue="Gradle.Multiplication.testEquality" />
+        <item itemvalue="Gradle.Multiplication.testMultiplication" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +136,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637567265319</updated>
-      <workItem from="1637567267346" duration="3074000" />
+      <workItem from="1637567267346" duration="3373000" />
+      <workItem from="1637717092522" duration="995000" />
     </task>
     <task id="LOCAL-00001" summary="tdd strat">
       <created>1637571308096</created>
@@ -135,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637571667527</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TODO리스트 추가.">
+      <created>1637572220376</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637572220376</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +190,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tdd strat" />
@@ -159,6 +199,9 @@
     <MESSAGE value="times() 를 처음 호출한 이후에는 더이상 5가 아니다." />
     <MESSAGE value="컴파일을 위한 null Dollar 반환" />
     <MESSAGE value="테스트 성공." />
-    <option name="LAST_COMMIT_MESSAGE" value="테스트 성공." />
+    <MESSAGE value="TODO리스트 추가." />
+    <MESSAGE value="equals 필요." />
+    <MESSAGE value="무조건 true 반환." />
+    <option name="LAST_COMMIT_MESSAGE" value="무조건 true 반환." />
   </component>
 </project>

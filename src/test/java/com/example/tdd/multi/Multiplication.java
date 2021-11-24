@@ -2,6 +2,12 @@ package com.example.tdd.multi;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import sun.jvm.hotspot.utilities.Assert;
+
+import java.sql.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /*
     TODO
@@ -24,6 +30,12 @@ public class Multiplication {
         Assertions.assertEquals(10, product.amount);
         product = five.times(3);
         Assertions.assertEquals(15, product.amount);
+    }
+
+    @Test
+    public void testEquality(){
+        Assertions.assertEquals(new Dollar(5), new Dollar(5));
+        Assertions.assertTrue(new Dollar(5).equals(new Dollar(5)));
     }
 
 }
