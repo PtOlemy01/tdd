@@ -18,7 +18,8 @@ import org.junit.jupiter.api.Test;
     Dollar / Franc 중복
     공용 equals ( 완료 )
     공용 times
-    Franc과 Dollar 비교하기
+    Franc과 Dollar 비교하기 ( 완료 )
+    통화 ?
     */
 
 public class Multiplication {
