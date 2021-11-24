@@ -1,7 +1,7 @@
 package com.example.tdd.multi;
 
 public class Dollar {
-    int amount = 0;
+    private int amount = 0;
 
     Dollar(int amount){
         this.amount = amount;
