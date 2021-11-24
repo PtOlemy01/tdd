@@ -2,12 +2,12 @@ package com.example.tdd.multi;
 
 public class Dollar extends Money{
     private String currency;
-    Dollar(int amount){
-        this.amount = amount;
-        this.currency = "USD";
+
+    Dollar(int amount, String currency){
+        super(amount, currency);
     }
-    Dollar times(int multiplier){
-        return new Dollar(amount * multiplier);
+    Money times(int multiplier){
+        return Money.dollar(amount * multiplier);
     }
     String currency(){
         return currency;

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c866d07-1b16-41dc-acec-fddddb2f3e3b" name="Changes" comment="Dollar 와 Franc 공통 부분 구현." />
+    <list default="true" id="4c866d07-1b16-41dc-acec-fddddb2f3e3b" name="Changes" comment="통화 계산.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Dollar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Franc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Franc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Money.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +60,7 @@
       <recent name="com.example.tdd.multi" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Multiplication.testEquality">
+  <component name="RunManager" selected="Gradle.Multiplication">
     <configuration name="Multiplication" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -122,8 +126,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Multiplication.testEquality" />
         <item itemvalue="Gradle.Multiplication" />
+        <item itemvalue="Gradle.Multiplication.testEquality" />
         <item itemvalue="Gradle.Multiplication.testMultiplication" />
       </list>
     </recent_temporary>
@@ -137,7 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637567265319</updated>
       <workItem from="1637567267346" duration="3373000" />
-      <workItem from="1637717092522" duration="3298000" />
+      <workItem from="1637717092522" duration="6002000" />
     </task>
     <task id="LOCAL-00001" summary="tdd strat">
       <created>1637571308096</created>
@@ -209,7 +213,35 @@
       <option name="project" value="LOCAL" />
       <updated>1637731538500</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Franc 클래스도 equals 를 수정.">
+      <created>1637740589392</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1637740589392</updated>
+    </task>
+    <task id="LOCAL-00012" summary="실패!!">
+      <created>1637741280204</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1637741280204</updated>
+    </task>
+    <task id="LOCAL-00013" summary="equals 테스트 통과 .">
+      <created>1637741450572</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1637741450572</updated>
+    </task>
+    <task id="LOCAL-00014" summary="통화 계산.">
+      <created>1637742306899</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1637742306899</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +273,10 @@
     <MESSAGE value="private 로 바꾸기." />
     <MESSAGE value="Franc 클래스 추가.&#10;테스트 코드 만들기 -&gt; 빨간막대 -&gt; 수정 -&gt; 녹색 막대." />
     <MESSAGE value="Dollar 와 Franc 공통 부분 구현." />
-    <option name="LAST_COMMIT_MESSAGE" value="Dollar 와 Franc 공통 부분 구현." />
+    <MESSAGE value="Franc 클래스도 equals 를 수정." />
+    <MESSAGE value="실패!!" />
+    <MESSAGE value="equals 테스트 통과 ." />
+    <MESSAGE value="통화 계산." />
+    <option name="LAST_COMMIT_MESSAGE" value="통화 계산." />
   </component>
 </project>
