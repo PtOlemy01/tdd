@@ -16,7 +16,7 @@ import java.util.List;
     amount 를 private로 만들기
     Dollar 부작용? ( 완료 )
     Money 반올리?
-    equals()
+    equals()        ( 완료 )
     hashCode()
     */
 
@@ -34,8 +34,9 @@ public class Multiplication {
 
     @Test
     public void testEquality(){
-        Assertions.assertEquals(new Dollar(5), new Dollar(5));
+        //Assertions.assertEquals(new Dollar(5), new Dollar(5));
         Assertions.assertTrue(new Dollar(5).equals(new Dollar(5)));
+        Assertions.assertFalse(new Dollar(5).equals(new Dollar(6)));
     }
 
 }
