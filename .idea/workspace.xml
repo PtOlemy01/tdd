@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c866d07-1b16-41dc-acec-fddddb2f3e3b" name="Changes" comment="계속해서 수정.">
+    <list default="true" id="4c866d07-1b16-41dc-acec-fddddb2f3e3b" name="Changes" comment="환율 계산 추가.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Pair.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Expression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tdd/multi/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tdd/multi/Multiplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +167,7 @@
       <updated>1637567265319</updated>
       <workItem from="1637567267346" duration="3373000" />
       <workItem from="1637717092522" duration="6534000" />
-      <workItem from="1637800695537" duration="4476000" />
+      <workItem from="1637800695537" duration="5523000" />
     </task>
     <task id="LOCAL-00001" summary="tdd strat">
       <created>1637571308096</created>
@@ -317,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637827956535</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="환율 계산 추가.">
+      <created>1637828271395</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1637828271395</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +366,7 @@
     <MESSAGE value="Test 중간 정리. &#10;소스를 보고 쳐도 빼먹는다.." />
     <MESSAGE value="ㅇ." />
     <MESSAGE value="계속해서 수정." />
-    <option name="LAST_COMMIT_MESSAGE" value="계속해서 수정." />
+    <MESSAGE value="환율 계산 추가." />
+    <option name="LAST_COMMIT_MESSAGE" value="환율 계산 추가." />
   </component>
 </project>
