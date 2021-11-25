@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c866d07-1b16-41dc-acec-fddddb2f3e3b" name="Changes" comment="Dollar Franc 중복 제거.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Franc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Franc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Money.java" afterDir="false" />
@@ -23,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -61,7 +65,7 @@
       <recent name="com.example.tdd.multi" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Multiplication.testDifferentClassEquality">
+  <component name="RunManager" selected="Gradle.Multiplication">
     <configuration name="Multiplication" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -148,8 +152,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Multiplication.testDifferentClassEquality" />
         <item itemvalue="Gradle.Multiplication" />
+        <item itemvalue="Gradle.Multiplication.testDifferentClassEquality" />
         <item itemvalue="Gradle.Multiplication.testEquality" />
         <item itemvalue="Gradle.Multiplication.testMultiplication" />
       </list>
@@ -165,7 +169,7 @@
       <updated>1637567265319</updated>
       <workItem from="1637567267346" duration="3373000" />
       <workItem from="1637717092522" duration="6534000" />
-      <workItem from="1637800695537" duration="1452000" />
+      <workItem from="1637800695537" duration="2965000" />
     </task>
     <task id="LOCAL-00001" summary="tdd strat">
       <created>1637571308096</created>
@@ -286,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637743709696</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Dollar Franc 중복 제거.">
+      <created>1637817221444</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1637817221444</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

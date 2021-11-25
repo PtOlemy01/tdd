@@ -36,7 +36,7 @@ public class Multiplication {
 
     @Test
     public void testFrancMultiplication(){
-        Franc five = new Franc(5, null);
+        Money five = Money.franc(5);
 
         assertEquals(Money.franc(10), five.times(2));
         assertEquals(Money.franc(15), five.times(3));
@@ -57,14 +57,20 @@ public class Multiplication {
     }
 
     @Test
-    public void testDifferentClassEquality(){
-        assertTrue(new Money(10, "CHF").equals(new Franc(10, "CHF")));
+    public void testSimpleAddition(){
+        Money five = Money.dollar(5);
+        Expression sum = five.plus(five);
+        Bank bank = new Bank();
+        Money reduced = bank.reduce(sum, "USD");
+        assertEquals(Money.dollar(10), reduced);
     }
 
     @Test
-    public void testSimpleAddition(){
-        Money sum = Money.dollar(5).plus(Money.dollar(5));
-        assertEquals(Money.dollar(10), sum);
+    public void testPlusReturnsSum(){
+        Money five = Money.dollar(5);
+        Expression result = five.plus(five);
+        Sum sum = (Sum)result;
+        assertEquals(five, sum.augend);
+        assertEquals(five, sum.addend);
     }
-
 }
