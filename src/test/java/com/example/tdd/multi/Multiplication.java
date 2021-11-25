@@ -4,26 +4,6 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/*
-    TODO
-    $5 + 10CHF = $10(환율이 2:1일 경우)
-    $5 * 2 = $10  ( 완료 )
-    amount 를 private로 만들기   (완료)
-    Dollar 부작용? ( 완료 )
-    Money 반올리?
-    equals()        ( 완료 )
-    hashCode()
-    Equal null
-    Equal object
-    5CHF * 2 = 10 CHF ( 완료 )
-    Dollar / Franc 중복   ( 완료 )
-    공용 equals ( 완료 )
-    공용 times    ( 완료  )
-    Franc과 Dollar 비교하기 ( 완료 )
-    통화 ?     ( 완료 )
-    testFrancMultiplication을 지워야 할까?
-    */
-
 public class Multiplication {
 
     @Test
@@ -80,5 +60,13 @@ public class Multiplication {
         Bank bank = new Bank();
         Money result = bank.reduce(sum, "USD");
         assertEquals(Money.dollar(7), result);
+    }
+
+    @Test
+    public void testReduceMoneyDifferentCurrency(){
+        Bank bank = new Bank();
+        bank.addRate("CHF", "USD", 2);
+        Money result = bank.reduce(Money.franc(2), "USD");
+        assertEquals(Money.dollar(1), result);
     }
 }
