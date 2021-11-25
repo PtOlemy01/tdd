@@ -8,6 +8,9 @@ public class Money implements Expression{
         this.amount = amount;
         this.currency = currency;
     }
+    public Money reduce(String to){
+        return this;
+    }
 
     String currency(){
         return currency;
