@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c866d07-1b16-41dc-acec-fddddb2f3e3b" name="Changes" comment="팩터리 메서드를 인라인 시키면 ?">
+    <list default="true" id="4c866d07-1b16-41dc-acec-fddddb2f3e3b" name="Changes" comment="Dollar Franc 중복 제거.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Dollar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Franc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Franc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Money.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tdd/multi/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tdd/multi/Multiplication.java" afterDir="false" />
     </list>
@@ -164,7 +164,8 @@
       <option name="presentableId" value="Default" />
       <updated>1637567265319</updated>
       <workItem from="1637567267346" duration="3373000" />
-      <workItem from="1637717092522" duration="6446000" />
+      <workItem from="1637717092522" duration="6534000" />
+      <workItem from="1637800695537" duration="1452000" />
     </task>
     <task id="LOCAL-00001" summary="tdd strat">
       <created>1637571308096</created>
@@ -278,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637743423269</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="내가지금 뭘하는거지 ?">
+      <created>1637743709696</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1637743709696</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +324,8 @@
     <MESSAGE value="통화 계산." />
     <MESSAGE value="통화 통일." />
     <MESSAGE value="팩터리 메서드를 인라인 시키면 ?" />
-    <option name="LAST_COMMIT_MESSAGE" value="팩터리 메서드를 인라인 시키면 ?" />
+    <MESSAGE value="내가지금 뭘하는거지 ?" />
+    <MESSAGE value="Dollar Franc 중복 제거." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dollar Franc 중복 제거." />
   </component>
 </project>
