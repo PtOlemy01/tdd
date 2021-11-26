@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c866d07-1b16-41dc-acec-fddddb2f3e3b" name="Changes" comment="환율 계산!">
+    <list default="true" id="4c866d07-1b16-41dc-acec-fddddb2f3e3b" name="Changes" comment="통화작업 끝.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Money.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tdd/multi/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tdd/multi/Multiplication.java" afterDir="false" />
     </list>
@@ -63,7 +61,7 @@
       <recent name="com.example.tdd.multi" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Multiplication.textMixedAddition">
+  <component name="RunManager" selected="Gradle.Multiplication.testSumPlusMoney">
     <configuration name="Multiplication" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -127,12 +125,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Multiplication.testMultiplication" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Multiplication.testSumPlusMoney" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.example.tdd.multi.Multiplication.testMultiplication&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.example.tdd.multi.Multiplication.testSumPlusMoney&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -171,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Multiplication.testSumPlusMoney" />
         <item itemvalue="Gradle.Multiplication.textMixedAddition" />
         <item itemvalue="Gradle.Multiplication" />
         <item itemvalue="Gradle.Multiplication.testDifferentClassEquality" />
         <item itemvalue="Gradle.Multiplication.testEquality" />
-        <item itemvalue="Gradle.Multiplication.testMultiplication" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +187,8 @@
       <updated>1637567265319</updated>
       <workItem from="1637567267346" duration="3373000" />
       <workItem from="1637717092522" duration="6534000" />
-      <workItem from="1637800695537" duration="5814000" />
+      <workItem from="1637800695537" duration="7065000" />
+      <workItem from="1637887667356" duration="1397000" />
     </task>
     <task id="LOCAL-00001" summary="tdd strat">
       <created>1637571308096</created>
@@ -352,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637829336381</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="통화작업 끝.">
+      <created>1637829641954</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1637829641954</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +377,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="중복.. 제거 ?" />
     <MESSAGE value="$5 * 2 = $10" />
     <MESSAGE value="times() 를 처음 호출한 이후에는 더이상 5가 아니다." />
     <MESSAGE value="컴파일을 위한 null Dollar 반환" />
@@ -396,6 +401,7 @@
     <MESSAGE value="계속해서 수정." />
     <MESSAGE value="환율 계산 추가." />
     <MESSAGE value="환율 계산!" />
-    <option name="LAST_COMMIT_MESSAGE" value="환율 계산!" />
+    <MESSAGE value="통화작업 끝." />
+    <option name="LAST_COMMIT_MESSAGE" value="통화작업 끝." />
   </component>
 </project>
