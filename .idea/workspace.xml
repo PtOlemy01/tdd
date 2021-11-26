@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c866d07-1b16-41dc-acec-fddddb2f3e3b" name="Changes" comment="Sum.plus">
+    <list default="true" id="4c866d07-1b16-41dc-acec-fddddb2f3e3b" name="Changes" comment="Expression.times">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Dollar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Franc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tdd/multi/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tdd/multi/Multiplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +60,7 @@
       <recent name="com.example.tdd.multi" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Multiplication.testSumPlusMoney">
+  <component name="RunManager" selected="Gradle.Multiplication.testPlusSameCurrencyReturnMoney">
     <configuration name="Multiplication" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -87,33 +82,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Multiplication.testDifferentClassEquality" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Multiplication.testPlusSameCurrencyReturnMoney" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.example.tdd.multi.Multiplication.testDifferentClassEquality&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Multiplication.testEquality" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.example.tdd.multi.Multiplication.testEquality&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.example.tdd.multi.Multiplication.testPlusSameCurrencyReturnMoney&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -135,6 +109,27 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.example.tdd.multi.Multiplication.testSumPlusMoney&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Multiplication.testSumTimes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.tdd.multi.Multiplication.testSumTimes&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -173,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Multiplication.testPlusSameCurrencyReturnMoney" />
+        <item itemvalue="Gradle.Multiplication.testSumTimes" />
         <item itemvalue="Gradle.Multiplication.testSumPlusMoney" />
         <item itemvalue="Gradle.Multiplication.textMixedAddition" />
         <item itemvalue="Gradle.Multiplication" />
-        <item itemvalue="Gradle.Multiplication.testDifferentClassEquality" />
-        <item itemvalue="Gradle.Multiplication.testEquality" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +187,7 @@
       <workItem from="1637567267346" duration="3373000" />
       <workItem from="1637717092522" duration="6534000" />
       <workItem from="1637800695537" duration="7065000" />
-      <workItem from="1637887667356" duration="1734000" />
+      <workItem from="1637887667356" duration="2611000" />
     </task>
     <task id="LOCAL-00001" summary="tdd strat">
       <created>1637571308096</created>
@@ -369,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637902843986</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Expression.times">
+      <created>1637903220734</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1637903220734</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +390,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="times() 를 처음 호출한 이후에는 더이상 5가 아니다." />
     <MESSAGE value="컴파일을 위한 null Dollar 반환" />
     <MESSAGE value="테스트 성공." />
     <MESSAGE value="TODO리스트 추가." />
@@ -413,6 +414,7 @@
     <MESSAGE value="환율 계산!" />
     <MESSAGE value="통화작업 끝." />
     <MESSAGE value="Sum.plus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sum.plus" />
+    <MESSAGE value="Expression.times" />
+    <option name="LAST_COMMIT_MESSAGE" value="Expression.times" />
   </component>
 </project>

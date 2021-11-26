@@ -36,8 +36,4 @@ public class Money implements Expression{
     public String toString(){
         return amount + "  " + currency;
     }
-
-    public Expression plus(Expression addend){
-        return new Sum(this, addend);
-    }
 }
