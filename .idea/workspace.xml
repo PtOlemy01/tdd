@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c866d07-1b16-41dc-acec-fddddb2f3e3b" name="Changes" comment="통화작업 끝.">
+    <list default="true" id="4c866d07-1b16-41dc-acec-fddddb2f3e3b" name="Changes" comment="Sum.plus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Dollar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Expression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Franc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Money.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tdd/multi/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tdd/multi/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tdd/multi/Multiplication.java" afterDir="false" />
     </list>
@@ -188,7 +192,7 @@
       <workItem from="1637567267346" duration="3373000" />
       <workItem from="1637717092522" duration="6534000" />
       <workItem from="1637800695537" duration="7065000" />
-      <workItem from="1637887667356" duration="1397000" />
+      <workItem from="1637887667356" duration="1734000" />
     </task>
     <task id="LOCAL-00001" summary="tdd strat">
       <created>1637571308096</created>
@@ -358,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637829641954</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Sum.plus">
+      <created>1637902843986</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1637902843986</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +388,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="$5 * 2 = $10" />
     <MESSAGE value="times() 를 처음 호출한 이후에는 더이상 5가 아니다." />
     <MESSAGE value="컴파일을 위한 null Dollar 반환" />
     <MESSAGE value="테스트 성공." />
@@ -402,6 +412,7 @@
     <MESSAGE value="환율 계산 추가." />
     <MESSAGE value="환율 계산!" />
     <MESSAGE value="통화작업 끝." />
-    <option name="LAST_COMMIT_MESSAGE" value="통화작업 끝." />
+    <MESSAGE value="Sum.plus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sum.plus" />
   </component>
 </project>
